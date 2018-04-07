@@ -1,0 +1,4 @@
+127.0.0.1 - - [07/Apr/2018:15:10:57 +0000] "GET /2018/04/07/hello-world/ HTTP/1.1" 200 19533 "http://codefest.local/2018/04/07/hello-world/" "WordPress/4.9.5; http://codefest.local"
+127.0.0.1 - - [07/Apr/2018:15:10:58 +0000] "POST /wp-cron.php?doing_wp_cron=1523113857.9032471179962158203125 HTTP/1.1" 499 0 "http://codefest.local/wp-cron.php?doing_wp_cron=1523113857.9032471179962158203125" "WordPress/4.9.5; http://codefest.local"
+127.0.0.1 - - [07/Apr/2018:15:13:01 +0000] "GET / HTTP/1.0" 200 53189 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+127.0.0.1 - - [07/Apr/2018:15:13:03 +0000] "GET /favicon.ico HTTP/1.0" 200 0 "http://codefest.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
