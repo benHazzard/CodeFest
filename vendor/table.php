@@ -1,4 +1,4 @@
-    <?php
+<?php
 /*
  * Copyright IBM Corp. 2016
  *
@@ -14,6 +14,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+require 'vendor/autoload.php';
 
 require_once "vendor/cloudant-master/lib/couch.php";
 require_once "vendor/cloudant-master/lib/couchClient.php";
@@ -35,6 +37,7 @@ $client = new couchClient($couch_dsn,$couch_db);
 try {
     $client->createDatabase();
 } catch(Exception $e) {
+    echo "Database already exists!";
 }
 
 $db_info = $client->getDatabaseInfos();
