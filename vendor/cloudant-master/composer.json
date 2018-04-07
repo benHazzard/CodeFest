@@ -1,0 +1,20 @@
+{
+    "name": "redaigbaria/cloudant",
+    "type": "library",
+    "description": "CouchDB NoSQL database access in PHP",
+    "keywords": ["couchdb","couch", "cloudant" ,"db", "apache", "nosql","driver" , "lucene"],
+    "homepage": "https://github.com/redaigbaria/cloudant",
+    "authors": [
+        {
+            "name": "Reda Igbara",
+            "email": "redaigbaria@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "classmap": ["lib/"]
+    },
+    "require": {
+        "php": ">=5.1.0"
+    }
+}
