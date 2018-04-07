@@ -1,0 +1,5 @@
+---
+applications:
+ - name: CodeFest-PHP
+   random-route: true
+   memory: 128M
